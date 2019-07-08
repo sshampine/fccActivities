@@ -1,0 +1,39 @@
+body {
+    background-color: #A9D7D1;
+}
+
+#title {
+    
+    text-align: center;
+}
+
+.survey-content {
+    background-color: #FAFAFA;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px) {
+    input {
+        display: block;
+    }
+}
