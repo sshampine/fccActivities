@@ -1,39 +1,37 @@
 body {
     background-color: #A9D7D1;
-}
-
-#title {
-    
     text-align: center;
-}
-
-.survey-content {
-    background-color: #FAFAFA;
-    max-width: 900px;
-    margin: 0 auto;
 }
 
 #description {
     text-align: center;
 }
-
-#survey-form {
+#title {
     text-align: center;
+    
 }
 
-label {
+.survey-content {
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    width: 940px;
+}
+.right,
+.left {
     display: inline-block;
-    width: 90px;
+    width: 30%;
+}
+
+.left {
     text-align: right;
+    padding: 0px 10px 0px 0px;
 }
 
-input {
-    max-width: 300px;
-    box-sizing: border-box;
+.right {
+    text-align: left;
+    padding: 0px 0px 0px 10px;
 }
 
-@media screen and (max-width: 640px) {
-    input {
-        display: block;
-    }
+.button {
+    text-align: center;
 }
